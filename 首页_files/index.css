@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+#id_0_0{ float:left; width:250px;}
+#id_0_1{ float:right; width:700px; padding-left:36px; padding-right:16px;}
+#id_0_2{ float:left; padding-left:10px; padding-right:10px; width:982px;}
+
+#index .aboutus1{ margin-top:4px;}
+#index .aboutus1 .title{ background:url(index-aboutus1-title-bg.jpg) no-repeat; width:250px; height:44px;}
+#index .aboutus1 .title .title_content{ height:44px;}
+#index .aboutus1 .title .title_content .content_title{ height:44px; font-weight:normal; font-size:13px;}
+#index .aboutus1 .title .title_content .content_title span{ padding-left:50px; line-height:36px;}
+#index .aboutus1 .title .title_content .content_more{ display:none;}
+#index .aboutus1 .content{ padding:10px 20px; width:210px; height:250px; overflow:hidden; background:url(left-cen.jpg) repeat-y;}
+#index .aboutus1 .content .contentbg{ width:210px; height:244px; overflow:hidden;}
+#index .aboutus1 .content .contentbg li{ width:210px; height:29px; border-bottom:1px dotted #ddd;}
+#index .aboutus1 .content .contentbg li .font{ padding-left:10px; width:200px; margin-left:0px; height:30px; line-height:30px; font-size:14px; overflow:hidden;}
+
+#index .contact .title .title_content .content_more{ display:none;}
+#index .contact .title .title_content .content_title{ height:44px; font-weight:normal; font-size:13px;}
+#index .contact .title .title_content .content_title span{ padding-left:50px; line-height:36px;}
+#index .contact{ background:url(left-cen.jpg) repeat-y; margin-bottom:10px;}
+#index .contact .content{ padding:10px 20px; width:210px; height:150px; overflow:hidden; background:url(list-bot.jpg) no-repeat bottom;}
+#index .contact .content .contentbg{ width:210px; height:142px; overflow:hidden;}
+
+#index .aboutus2 .title{ background:url(index-aboutus2-title-bg.jpg) no-repeat; width:325px; height:44px;}
+#index .aboutus2 .title .title_content{ height:44px;}
+#index .aboutus2 .title .title_content .content_title{ height:44px; font-weight:normal; font-size:13px;}
+#index .aboutus2 .title .title_content .content_title span{ padding-left:26px; line-height:44px;}
+#index .aboutus2 .title .title_content .content_more{ padding-top:20px; padding-right:0px;}
+#index .aboutus2{ float:left; width:325px; margin-top:14px; margin-bottom:30px;}
+#index .aboutus2 .content{ padding:10px 0px; width:325px; height:190px; overflow:hidden;}
+#index .aboutus2 .content .contentbg{ width:325px; height:190px; overflow:hidden;}
+
+#index .case .title{ display:none;}
+#index .case{ float:right; width:345px; margin-left:30px; margin-top:52px; margin-bottom:30px;}
+
+#index .product .title{}
+#index .product .title .title_content{ height:44px;}
+#index .product .title .title_content .content_title{ height:44px; font-weight:normal; font-size:13px;}
+#index .product .title .title_content .content_title span{ padding-left:26px; line-height:44px;}
+#index .product .title .title_content .content_more{ padding-top:20px; padding-right:0px;}
+#index .product{ float:left; width:680px; margin-right:20px;}
+#index .product .content{ padding:20px 0px; width:680px; height:154px; overflow:hidden;}
+#index .product .content .contentbg{ margin:0px; width:680px;}
+#index .product .content .contentbg ul{ width:680px;}
+#index .product .content .contentbg ul li{ width:166px; padding-left:6px; padding-right:6px;}
+#index .product .content .contentbg ul .img{ width:164px; height:124px; border:1px solid #ddd;}
+#index .product .content .contentbg ul .img_content{ margin:2px; width:160px; height:120px; text-align:center; overflow:hidden;}
+#index .product .content .contentbg ul .font{ background:none; padding-left:0px; margin-left:0px; width:166px; height:30px; line-height:30px; text-align:center; overflow:hidden;}
+
+#index .link .title .title_content .content_more{ display:none;}
+#index .link{ margin-bottom:10px; width:982px;}
+#index .link .title{ float:left; width:100px; height:60px; overflow:hidden;}
+#index .link .content{ float:left; padding:0px 10px; width:862px; height:60px; overflow:hidden; background:url(link-bg.jpg) no-repeat;}
+#index .link .content .font{ float:left; background:none; height:60px; line-height:60px; width:auto; margin-left:0px; padding-left:20px; overflow:hidden;}

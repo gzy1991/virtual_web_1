@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <link rel="shortcut icon" href="http://saelab.dlut.edu.cn/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="大连理工大学车辆工程虚拟仿真实验教学中心">
+    <meta name="keywords" content="大连理工大学车辆工程虚拟仿真实验教学中心">
+    <link rel="stylesheet" type="text/css" href="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/base.css">
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/jquery-1.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/common-img.css">
+    <title>管理体系 - 大连理工大学软件工程虚拟仿真实验教学中心</title>
+    
+<link rel="stylesheet" type="text/css" href="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/aboutus.htm">
+
+    <style>
+    .field-validation-error{color:Red;}
+    </style>
+
+    
+</head>
+<body>
+    
+    <div id="wrap">
+        
+<div id="header">
+    
+<div id="header_center" class="width margin0auto clearfix">
+    
+<div id="logo">
+    <a href="http://saelab.dlut.edu.cn/Index.aspx">
+        <img src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/201405271621157718_660x101.png"></a></div>
+
+<div id="header_set">
+    <a href="javascript:void(0)" id="header_set_sethome">设为首页</a> <a href="javascript:void(0)" id="header_set_addfavorite">加入收藏</a>
+</div>
+<div id="search">
+
+    <script>
+        function onSearch() {
+            setTimeout(function() {
+            document.location.href = '/Search.aspx?lan=zh-cn&key=' + $("#searchKey").val();
+            }, 0);
+            return false;
+        }
+        $("#search_text input").keydown(function(e) {
+            if (e.keyCode == 13) {
+                onSearch();
+            }
+        });
+    </script>
+    <div id="search_text">
+        <input name="" id="searchKey" class="text" type="text">
+    </div>
+    <div id="search_button">
+        <a href="#" onclick="return onSearch();"></a></div>
+</div>
+</div>
+
+<div id="nav">
+    <div id="nav_inner">
+        <ul id="nav_ul" class="width margin0auto clearfix">
+            <li id="nav1"><a href="http://saelab.dlut.edu.cn/Index.aspx"><span>
+                网站首页</span></a></li>
+            
+            <li id="nav2">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1712.aspx">
+                        
+                        <span>
+                            中心概况</span></a></li>
+            
+            <li id="nav3">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1677.aspx">
+                        
+                        <span>
+                            虚拟仿真实验教学资源</span></a></li>
+            
+            <li id="nav4">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1680.aspx">
+                        
+                        <span>
+                            资源共享</span></a></li>
+            
+            <li id="nav5">
+                
+                    <a href="http://saelab.dlut.edu.cn/List/93.aspx">
+                        
+                        <span>
+                            图片展示</span></a></li>
+            
+            <li id="nav6">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1685.aspx">
+                        
+                        <span>
+                            条件保障</span></a></li>
+            
+            <li id="nav7">
+                <a href="http://saelab.dlut.edu.cn:82/manage/login/login.aspx" target="_blank">
+                    
+                        <span>
+                            设备预约</span></a></li>
+            
+            <li id="nav8">
+                <a href="http://www.dlut.edu.cn/" target="_blank">
+                    
+                        <span>
+                            大工主页</span></a></li>
+            
+        </ul>
+    </div>
+</div>
+
+
+<div id="banner"> 
+    <div id="banner_index" class="width margin0auto">
+      <iframe scrolling="no" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/RandomArticle.htm" frameborder="0" height="250" width="1002">
+        </iframe>
+    </div>
+</div>
+
+
+ 
+
+</div>
+         <div class="content">
+            <div id="content_content" class="width margin0auto clearfix">
+                
+
+<div id="list"><div style="margin-left: 250px;" id="list_split"></div>
+    
+<div class="aboutus1 list_content clearfix">
+	<div class="title">
+	    <div class="title_inner">
+		    <div class="title_content">
+			    <div class="content_title"><span><a href="javascript:void(0);">中心概况</a></span></div>
+			    <div class="content_more"><a href="javascript:void(0);">更多</a></div>
+		    </div>
+		</div>
+	</div>
+    <div class="content">
+	<ul class="contentbg">
+	
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1712.aspx">基本情况</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/List/629.aspx">建设内容</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1671.aspx">教学平台功能</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1673.aspx">合作企业</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1674.aspx">实验教学和管理队伍</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1675.aspx">管理体系</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1676.aspx">特色与创新</a></div>
+		</li>
+		
+	</ul>
+    </div>
+</div>
+
+
+</div>
+<div style="width: 749px;" id="group">
+    <div id="aboutus">
+        <div class="title">
+            <div class="title_inner">
+                <div class="title_content">
+                    <div class="content_title"><span>管理体系</span></div>
+                    
+<div class="trace">
+    您当前所在位置： <a href="http://saelab.dlut.edu.cn/Index.aspx">首页</a>
+    
+    &gt;&gt;
+    <a href="http://saelab.dlut.edu.cn/Detail/1712.aspx">中心概况</a>
+    
+    &gt;&gt;
+    <a href="http://saelab.dlut.edu.cn/Detail/1675.aspx">管理体系</a>
+    
+</div>
+
+                </div>
+            </div>
+        </div>
+        <div id="about_content" class="content">
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">为提高实验教学质量，促进设计性、综合型、研究型实验项目的开展，中心实行科学化、制度化、经常化的管理维护，确保仪器设备正常运行。
+	</span>	
+</p>
+<p class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">1. 实验室管理</span>
+</p>        
+
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		软件工程综合实验教学中心实行学校、学院两级管理，学校专门制定了“大连理工大学本科实验教学实验中心管理办法”，从政策、经费、人员等方面保证和促进了中心的建设与发展。中心主任由学校任命，并对其岗位责任和任务有明确的规定，副主任和各实验室主任由软件学院任命。
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		在实验教学上，实行中心主任负责制，实行了人财物的统一管理。通过几年来的建设与实践，这种管理模式与传统的实验室模式相比，能较好地实现人尽其才，物尽其用，分工协作，资源共享，高效运转。在中心的运行上，实行“统一规划，分工负责”的原则。所谓“统一规划”，是指中心的管理主要围绕以下核心任务：即研究软件工程实验教学的规律性，大力推动实验教学理念创新，鼓励教授和实验教学人员创造新的软件工程实验教学模式，规划中心的发展方向，确定中心建设和发展的重点。所谓“分工负责”，是指在各实验室的建设、发展、以及实验教学课程体系、实验教学内容、方法和手段的改革上，本着“教授治学，教授治教”及“以人为本”的精神，中心完全尊重教授、实验室主任，以及课程负责人的独创精神和自主权，创造宽松的实验教学改革和发展的环境。在此基础上，形成了如下实验室管理模式:
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		⑴ 中心实行主任负责制，中心主任由学校任免，中心属于校级实验中心，实行学校、学院两级管理。
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		⑵ 实验技术人员实行定岗定期聘任，公开招聘，竞争上岗，定期考核的管理机制，明确岗位责任制，严明纪律，提倡工作主动性。鼓励实验技术人员进修，提高业务素质。
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		⑶ 中心建立理论教学与实验教学相结合、科研与实践相结合、校企结合的教学团队，学术骨干为教学团队的负责人，负责理论教学和实验教学协调建设。
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		⑷ 中心实行统一管理，仪器设备实行计算机管理，有效地提高了实验室和设备的利用率，实行开放式实验教学模式，更好地锻炼了学生的实验技能。
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		⑸ 中心建立规范化、系列化有效制度，除了学校实验室管理条例和实验技术人员岗位职责外，实验中心还针对自己的特点制定了一系列有效的制度，保证了实验教学的规范运行。
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		⑹ 实行实验项目负责人机制，实验教学人员按照实验课类别及实验项目实行分组管理，提高了管理效率，保证了教学质量。
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		实验室管理工作的重要任务是保障学校资产的安全与完整，保证教学、科研等工作顺利开展，充分发挥既有仪器设备的使用，不断提高投资效益。加强仪器设备的购置、验收、使用、维护、报废的全程管理，注重技术管理和经济管理，使仪器设备在使用周期中充分发挥效益。学校和中心先后建立了规范化、人性化、以学生为本的实验室管理制度。
+	</span>	
+</p>
+<p style="text-indent:0pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">
+		教育部和学校建立的实验室管理制度有：
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+<ul>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑴	高等学校实验室工作规程（教育部）</span>	</li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑵	关于加强高等学校实验室工作的意见（教育部）</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑶	大连理工大学实验教学工作条例（大连理工大学）</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑷	学生实验守则（大连理工大学）</span></li>
+
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑸ 实验室安全制度（大连理工大学）</span></li>
+
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑹ 实验室卫生制度（大连理工大学）</span></li>
+
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑺ 	实验教学工作条例（大连理工大学）</span></li>
+
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑻ 	教学实验室开放管理办法（试行）（大连理工大学）</span></li>
+
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑼ 实验室工作档案管理办法（大连理工大学）</span></li>
+
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑽ 实验室条件改善费管理办法（大连理工大学）</span></li>
+
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑾ 仪器设备集中采购管理细则（大连理工大学）</span></li>
+
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑿ 仪器设备日常管理细则（大连理工大学）</span></li>
+
+
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⒀ 仪器设备借用制度（大连理工大学）</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⒁ 低值设备和器材管理办法（大连理工大学）</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⒂ 仪器设备报废管理办法（大连理工大学）</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⒃ 仪器设备招投标管理细则（大连理工大学）</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⒄ 实验室人员招聘考核实施办法（大连理工大学）</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⒅ 教职工考核实施意见（大连理工大学）</span></li>
+<!-- 
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp</span></li>
+ -->
+</ul>
+</p>
+<p style="text-indent:0pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">在学校实验室管理规章制度基础上，中心又制定了如下规章制度：
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		<ul>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑴	软件学院仪器、设备丢失、损坏赔偿办法；</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑵	软件学院实验中心上机管理制度；</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑶	软件学院实验中心机房助管人员岗位职责；</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑷	软件学院实验中心勤工助学管理办法；</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑸	软件学院实验中心上机管理制度补充规定；</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑹	软件学院实验中心实验教学方法与多元化考核方法；</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑺	软件学院综合实验中心正副主任职责分工；</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑻	软件学院实验中心助课人员岗位职责；</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑼	大连理工大学软件学院教学督导组工作条例； </span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp⑽ 软件学院实训基地管理制度。</span></li>
+<!-- <li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp</span></li>
+<li><span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">&nbsp&nbsp&nbsp&nbsp</span></li> -->
+		</ul>
+
+
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		本中心的设备主要是实验装置和常规的仪器，所有设备和仪器均按大连理工大学《实验室仪器设备管理制度》进行管理和维护，仪器设备的维修费用由大连理工大学教务处和国有资产处进行审批、核准负担。这些仪器设备管理、运行、维护制度和政策为实验教学的正常开展提供了有力保障。
+	</span>	
+</p>
+<p style="text-indent:0pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">
+		2. 运行模式
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		综合实验教学中心在学校及学院规章制度的基础上，在实验室开放、资源开放、考评办法、质量保证体系等方面建立了良好的运行模式。
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">
+	⑴ 实验室开放运行情况	
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		软件学院综合实验教学中心实行开放式运行机制，包括时间开放、空间开放、内容开放、资源开放、实验分析仪器开放。
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">时间开放。中心实验教学根据学生选课情况实行全面开放与预约开放相结合的方式。通过时间开放，实验教学资源得到了充分利用。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">内容开放。中心将实验分为必选项目和任选项目，学生在完成保证教学基本要求和基本技能训练的必选项目后，还必须根据自身条件和兴趣并结合专业方向选择一定数量的任选实验项目，达到因材施教的目的。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">设备及场地开放。根据各实验室设备的具体情况，有区别的实现了面对学生不同程度的开放。此外，中心还鼓励学生参与实验室的建设和管理工作，并与教师共同开发实验技术项目。通过管理开放，提高了学生的参与程度。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">创新实验室完全开放。低年级学生根据资源闲置情况和自身的条件选择实验环节，安排实验指导教师，高年级学生主要从事创新研究型项目和科技竞赛等任务，这部分学生完全开放，学生可以根据自己的进度、时间自由进入实验室，包括晚上和周末，为那些学有余力且有能力的学生尽可能的创造条件，使他们快速成长成才。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">为了减轻实验室开放带来的教师负担，中心配备了博士研究生和硕士研究生协助教师管理开放实验室，参与实验指导等工作。2012年经人事处和研究生院批准，综合实验教学中心设置了8个研究生助管岗位，235人次助教岗位。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">所有这些开放运行机制充分体现了中心管理制度规范化、人性化、以学生为本的思想。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">⑵ 实验室资源开放
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">在学校和实验中心的政策与制度的引导下，综合实验教学中心的教师资源、设备资源和实验室资源都得到了充分的利用。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">① 学校对综合实验教学中心的投资统一规划、专家论证、监控制度健全，将集中建设与分散建设有机地结合在一起。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">② 教师实行专任与兼职相结合、校企相结合、理论与实验相结合。教师资源打破了院系专业的界限，专职教师既承担理论教学也承担实践教学，将教师的科研成果也融入到实验教学中，每位教师负责几个具体的工程项目或科技竞赛活动。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">③ 综合实验教学中心建立了仪器设备集中管理维护制度。所有设备进到中心后，首先进入中心的设备库房，设立专职管理人员，专人维护，并建立记帐制度。各实验室所需仪器设备全部到设备库房进行登记借用。损坏的仪器设备，由管理人员负责进行维修等事宜。通过这种管理模式，大大提高了设备的利用率和完好率，同时方便了学科教师借用设备用于科研。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">④ 综合实验教学中心承担了量大面广的创新实验教学活动、大学生科技竞赛、大学生创新实验计划和大学生创造发明、大学生创业活动，实验室全天开放，形成了课内外一体化创新实验基地，使资源得到更有效的利用。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">⑶ 考评办法
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">学校建立了实验教师工作竞争机制，采取晋职晋级、评优、表彰、奖励等有效手段鼓励实验教师工作积极性，制订了《大连理工大学教职工考核实施意见》、《大连理工大学实验室人员聘任考核实施办法（试行）》等规章制度，鼓励教师积极投入和改革创新，将实验教师参加教学改革、发表教学论文、指导学生科技竞赛作为考核评价的重要指标。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">实验中心采用年度考核和三年聘期考评相结合的方式对中心教师进行工作考评。年度考评由学校组织统一进行，聘期考评由学校布置，中心负责，进行聘任考评，出现重大教学事故者和年度考评不合格者停止晋职晋级或解聘。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">⑷ 质量保证体系
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">中心坚持以学生为本的指导思想，始终把教学质量当作头等大事来抓。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">一方面，加强师资队伍建设，以教学骨干为核心，鼓励以科研为主的教师和以理论教学为主的教师参与实践教学，承担实验教学任务，采取多种形式培训实验技术人员，努力提高中心教学队伍的业务水平和实验技能；
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">另一方面，学校建立了教学质量监控体系，成立了校级、学院和中心三级教学督导机制，定期对教学情况进行督察。校级教学质量督导组定期来实验中心检查，学院教学督导组经常深入课堂、实验室听课，召开学生座谈会，了解实验教学具体情况，并及时向任课教师反馈信息，指导教师进一步搞好实验教学改革。中心领导在深入了解各实验课进展情况的基础上，敦促各课程组定期或不定期地进行实验教学研讨，扬长避短，保证实验教学高质量运行。
+		
+	</span>	
+</p>
+<p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">另外，教务处建立了教学网络评价系统，学生与专家可对教师的教学质量进行评价，评价结果与三级教学质量监督系统相互结合，共同组建了一个行之有效的教学质量监督保证体系，评价结果与岗位聘任和职称晋升挂钩。
+		
+	</span>	
+</p>
+<!-- <p style="text-indent:24pt;" class="p0">
+	<span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+		
+	</span>	
+</p> -->
+
+
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        
+<div id="footer">
+    <div class="content width margin0auto">
+        <table cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle">
+        
+<span id="support">©2014 大连理工大学版权所有<a href="http://www.shareyue.com/"> </a></span>
+        </td></tr></tbody></table>
+    </div>
+</div>
+    </div>
+    <script type="text/javascript">
+        window.lan = "zh-cn";
+    </script>
+    <!--[if lt IE 10]>
+    <script type="text/javascript" src="/Template/js/PIE.js"></script>
+    <![endif]-->
+        <!--[if lt IE 7]>
+    <script language="javascript" type="text/javascript" src="/Template/js/DD_belatedPNG_0.0.8a-min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <script  language="javascript" type="text/javascript" src="/Template/js/IE8.js"></script>
+    <![endif]-->
+  
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/jquery_002.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/jquery_003.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/jcarousellite_1.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/jquery_004.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/common.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/common_002.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E7%AE%A1%E7%90%86%E4%BD%93%E7%B3%BB_files/PreLoadImageJS.htm"></script>
+    
+    
+</body></html>

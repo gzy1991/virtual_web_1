@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <link rel="shortcut icon" href="http://saelab.dlut.edu.cn/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="大连理工大学软件工程虚拟仿真实验教学中心">
+    <meta name="keywords" content="大连理工大学软件工程虚拟仿真实验教学中心">
+    <link rel="stylesheet" type="text/css" href="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/base.css">
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/jquery-1.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/common-img.css">
+    <title>实验教学和管理队伍 - 大连理工大学软件工程虚拟仿真实验教学中心</title>
+    
+<link rel="stylesheet" type="text/css" href="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/aboutus.htm">
+
+    <style>
+    .field-validation-error{color:Red;}
+    </style>
+
+    
+</head>
+<body>
+    
+    <div id="wrap">
+        
+<div id="header">
+    
+<div id="header_center" class="width margin0auto clearfix">
+    
+<div id="logo">
+    <a href="http://saelab.dlut.edu.cn/Index.aspx">
+        <img src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/201405271621157718_660x101.png"></a></div>
+
+<div id="header_set">
+    <a href="javascript:void(0)" id="header_set_sethome">设为首页</a> <a href="javascript:void(0)" id="header_set_addfavorite">加入收藏</a>
+</div>
+<div id="search">
+
+    <script>
+        function onSearch() {
+            setTimeout(function() {
+            document.location.href = '/Search.aspx?lan=zh-cn&key=' + $("#searchKey").val();
+            }, 0);
+            return false;
+        }
+        $("#search_text input").keydown(function(e) {
+            if (e.keyCode == 13) {
+                onSearch();
+            }
+        });
+    </script>
+    <div id="search_text">
+        <input name="" id="searchKey" class="text" type="text">
+    </div>
+    <div id="search_button">
+        <a href="#" onclick="return onSearch();"></a></div>
+</div>
+</div>
+
+<div id="nav">
+    <div id="nav_inner">
+        <ul id="nav_ul" class="width margin0auto clearfix">
+            <li id="nav1"><a href="http://saelab.dlut.edu.cn/Index.aspx"><span>
+                网站首页</span></a></li>
+            
+            <li id="nav2">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1712.aspx">
+                        
+                        <span>
+                            中心概况</span></a></li>
+            
+            <li id="nav3">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1677.aspx">
+                        
+                        <span>
+                            虚拟仿真实验教学资源</span></a></li>
+            
+            <li id="nav4">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1680.aspx">
+                        
+                        <span>
+                            资源共享</span></a></li>
+            
+            <li id="nav5">
+                
+                    <a href="http://saelab.dlut.edu.cn/List/93.aspx">
+                        
+                        <span>
+                            图片展示</span></a></li>
+            
+            <li id="nav6">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1685.aspx">
+                        
+                        <span>
+                            条件保障</span></a></li>
+            
+            <li id="nav7">
+                <a href="http://saelab.dlut.edu.cn:82/manage/login/login.aspx" target="_blank">
+                    
+                        <span>
+                            设备预约</span></a></li>
+            
+            <li id="nav8">
+                <a href="http://www.dlut.edu.cn/" target="_blank">
+                    
+                        <span>
+                            大工主页</span></a></li>
+            
+        </ul>
+    </div>
+</div>
+
+
+<div id="banner"> 
+    <div id="banner_index" class="width margin0auto">
+      <iframe scrolling="no" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/RandomArticle.htm" frameborder="0" height="250" width="1002">
+        </iframe>
+    </div>
+</div>
+
+
+ 
+
+</div>
+         <div class="content">
+            <div id="content_content" class="width margin0auto clearfix">
+                
+
+<div id="list"><div style="margin-left: 250px;" id="list_split"></div>
+    
+<div class="aboutus1 list_content clearfix">
+	<div class="title">
+	    <div class="title_inner">
+		    <div class="title_content">
+			    <div class="content_title"><span><a href="javascript:void(0);">中心概况</a></span></div>
+			    <div class="content_more"><a href="javascript:void(0);">更多</a></div>
+		    </div>
+		</div>
+	</div>
+    <div class="content">
+	<ul class="contentbg">
+	
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1712.aspx">基本情况</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/List/629.aspx">建设内容</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1671.aspx">教学平台功能</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1673.aspx">合作企业</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1674.aspx">实验教学和管理队伍</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1675.aspx">管理体系</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1676.aspx">特色与创新</a></div>
+		</li>
+		
+	</ul>
+    </div>
+</div>
+
+
+</div>
+<div style="width: 749px;" id="group">
+    <div id="aboutus">
+        <div class="title">
+            <div class="title_inner">
+                <div class="title_content">
+                    <div class="content_title"><span>实验教学和管理队伍</span></div>
+                    
+<div class="trace">
+    您当前所在位置： <a href="http://saelab.dlut.edu.cn/Index.aspx">首页</a>
+    
+    &gt;&gt;
+    <a href="http://saelab.dlut.edu.cn/Detail/1712.aspx">中心概况</a>
+    
+    &gt;&gt;
+    <a href="http://saelab.dlut.edu.cn/Detail/1674.aspx">实验教学和管理队伍</a>
+    
+</div>
+
+                </div>
+            </div>
+        </div>
+        <div id="about_content" class="content">
+        &nbsp;
+
+
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">中心依托大连理工大学软件工程综合实验教学中心。中心积极推进课程体系、教学内容、教学方法和手段的改革；坚持“打好基础、拓宽专业、加强能力、增强素质、因材施教”的教学指导思想；把增强学生的综合素质、创新能力和实践能力作为教学改革的重点；把培养基础宽、适应性强、具有创新和竞争能力的高素质软件人才作为实验教学工作的目标；科学地分析学生应具有的知识、能力和素质结构，构建合理的课程结构体系，加强系列核心课程和实践环节的改革和建设；逐步形成了加强实践教学，注重能力培养，以学生基本实践能力训练为基础、以创新意识、创新精神和创新能力培养为突破口，知识、能力、素质协调发展的实验教学理念。
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">目前中心固定人员有：教授13 人，副教授及高级工程师20人，讲师及工程师41人，兼职教师11人。
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">近年来，实验中心人员教学研究主要成果如下：</span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">国家级试点专业1个:</span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">软件工程卓越工程师教育培养计划试点专业，教育部，2011
+    </span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">国家级优秀教学成果二等奖1项:
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">研究型大学工程教育改革与卓越工程师培养的探索与实践，教育部，2014
+    </span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">国家级教改项目1项:
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">“大型主机应用型创新人才培养模式的研究与实践”——子课题“大型主机实训基地的建设和实施”，薛强，2006-2008
+    </span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">国家级优秀教师奖1项：
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">“宝钢教育基金”优秀教师奖，马洪连，2008
+    </span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">国家级质量工程建设项目3项：
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">(1)国家级人才培养模式创新实验区：工程型软件精英人才培养模式创新实验区2008-2011
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">(2)软件工程特色专业建设 2008-2011
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">(3)嵌入式系统工程专业建设 2008-2011
+    </span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">省部级精品课程7项:
+    </span>
+</p>
+
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">(1)大型主机平台系统应用开发基础，教育部-IBM精品课程，陆坤等，2008
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+    (2)企业级服务器系统管理基础，教育部-IBM精品课程，李凤岐等，2010
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+    (3)软件开发案例分析，教育部-IBM精品课程，王征，2010
+
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+    (4)计算机组成与多核计算，教育部-Intel精品课程，周宽久等，2009
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+    (5)嵌入式系统结构设计与应用，教育部-Intel精品课程，郭禾等，2008
+
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+    (6)计算机组成原理与结构，教育部-SUN精品课程，马洪连等，2008
+
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+    (7)嵌入式系统结构设计与应用，教育部-Intel精品课程，郭禾等，2008
+    </span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">省级教学成果奖共6项:
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（1）“打造精英型软件工程人才培养基地”，省级一等奖，沈宏书 王秀坤 薛强 乔国钧 张宪超，2009年；
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（2）“大规模大学生创新性实验计划的实施”，省级一等奖，姜文凤 高欣 冯林 李凤岐 刘勃 尹平凡 姜岳峰，2012年；
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（3）“大型主机应用人才培养模式的创新与实践”，省级二等奖，薛强 李凤岐 黄晓涛 邬国锐 陆坤，2009年；
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（4）“产学研紧密衔接的软件工程教育平台的建设”，省级二等奖，罗钟铉 李凤岐 周宽久 周勇 樊宇 田园 刘宇，2012年；
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（5）“基于共享资源平台的计算机应用专业大型主机特色方向建设与实践”，省级二等奖，黄晓涛、刘玓、李凤岐、王芬、吴驰、李树全、陆坤、傅毓勤，2012年；
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（6）“探索高层次创新型人才培养的有效途径”，省级二等奖，马洪连等，2008
+    </span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">辽宁省精品课程1项:
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">计算机组成原理，马洪连等，2008
+    </span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">辽宁省特色专业1项:
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">软件工程特色专业，张宪超等，2010
+    </span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">省部级教育教学改革研究项目共5项:
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（1）嵌入式人才培养模式创新实验区建设与实践，辽宁省教改项目，周宽久等，2009.12-2011.12
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（2）高校青年教师工程实践能力培养机制探索与实践，辽宁省教改项目，惠晓丽等，2009.12-2011.12
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（3）“大连理工大学-立命馆大学国际信息与软件学院”国际化人才培养模式的研究，辽宁省教改项目，周勇等，2012.06-2014.06
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（4）卓越软件工程师实践教学体系建设，辽宁省教改项目，李凤岐等，2012.06-2014.06
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（5）CICS系统与新技术应用，教育部-IBM专业综合改革项目，陆坤等，2011
+    </span>
+</p>
+<p style="text-indent:0pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;font-weight:bold;">出版教材20余本，其中“十一五”规划教材2本，“十二五”规划教材1本，专著1本:
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（1）数据结构.算法及应用，科学出版社，张宪超 刘馨月 于红 蒋光远，2012.07（国家“十二五”规划教材）
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（2）Linux内核分析与高级教程，清华大学出版社，吴国伟 李莹 姚琳，2012.08（国家“十一五”规划教材）
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（3）微型计算机硬件技术，高等教育出版社，马洪连等，2008.06（国家“十一五”规划教材）
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（4）计算几何：曲面表示论及其应用，科学出版社，罗钟铉，2010.07（专著）
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">（5）物联网感知与控制技术，清华大学出版社，马洪连等，2012.08（国家“十一五”规划教材）
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">此外，近年来，中心成员在国内外期刊发表教育教学研究论文百余篇，承担其他类教育教学研究项目34项，获校级优秀教学成果奖5项，校级精品课程2门、优秀课程4门。
+    </span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:'仿宋_GB2312';color:#000000;font-size:12pt;">
+    </span>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p style="text-indent:23.52pt;" class="p0">
+	&nbsp;
+</p>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        
+<div id="footer">
+    <div class="content width margin0auto">
+        <table cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle">
+        
+<span id="support">©2014 大连理工大学版权所有<a href="http://www.shareyue.com/"> </a></span>
+        </td></tr></tbody></table>
+    </div>
+</div>
+    </div>
+    <script type="text/javascript">
+        window.lan = "zh-cn";
+    </script>
+    <!--[if lt IE 10]>
+    <script type="text/javascript" src="/Template/js/PIE.js"></script>
+    <![endif]-->
+        <!--[if lt IE 7]>
+    <script language="javascript" type="text/javascript" src="/Template/js/DD_belatedPNG_0.0.8a-min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <script  language="javascript" type="text/javascript" src="/Template/js/IE8.js"></script>
+    <![endif]-->
+  
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/jquery_002.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/jquery_003.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/jcarousellite_1.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/jquery_004.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/common.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/common_002.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E4%B8%AD%E5%BF%83%E6%A6%82%E5%86%B5-%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E5%92%8C%E7%AE%A1%E7%90%86%E9%98%9F%E4%BC%8D_files/PreLoadImageJS.htm"></script>
+    
+    
+    
+    
+</body></html>
