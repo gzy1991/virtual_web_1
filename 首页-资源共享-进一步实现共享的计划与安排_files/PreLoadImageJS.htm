@@ -1,0 +1,70 @@
+
+$.preload(
+
+    '/Template/1676wz/button-left.png'
+,
+    '/Template/1676wz/button-right.png'
+,
+    '/Template/1676wz/logo.png'
+,
+    '/Template/1676wz/service_qq_offline.png'
+,
+    '/Template/1676wz/service_qq_online.png'
+,
+    '/Template/1676wz/bottom.gif'
+,
+    '/Template/1676wz/middle.gif'
+,
+    '/Template/1676wz/product-box.gif'
+,
+    '/Template/1676wz/top.gif'
+,
+    '/Template/1676wz/bg.jpg'
+,
+    '/Template/1676wz/box.jpg'
+,
+    '/Template/1676wz/content-bg.jpg'
+,
+    '/Template/1676wz/group-title-bg.jpg'
+,
+    '/Template/1676wz/head-bg.jpg'
+,
+    '/Template/1676wz/index-aboutus1-title-bg.jpg'
+,
+    '/Template/1676wz/index-aboutus2-title-bg.jpg'
+,
+    '/Template/1676wz/index-contact-title-bg.jpg'
+,
+    '/Template/1676wz/index-product-title-bg.jpg'
+,
+    '/Template/1676wz/left-cen.jpg'
+,
+    '/Template/1676wz/link-bg.jpg'
+,
+    '/Template/1676wz/link-title-title-text.jpg'
+,
+    '/Template/1676wz/list-aboutus1-title-bg.jpg'
+,
+    '/Template/1676wz/list-article1-title-bg.jpg'
+,
+    '/Template/1676wz/list-article2-title-bg.jpg'
+,
+    '/Template/1676wz/list-article3-title-bg.jpg'
+,
+    '/Template/1676wz/list-article4-title-bg.jpg'
+,
+    '/Template/1676wz/list-bot.jpg'
+,
+    '/Template/1676wz/list-product-class-title-bg.jpg'
+,
+    '/Template/1676wz/more.jpg'
+,
+    '/Template/1676wz/nav-bg.jpg'
+,
+    '/Template/1676wz/nav-split.jpg'
+,
+    '/Template/1676wz/search-bg.jpg'
+,
+    '/Template/1676wz/search-bt.jpg'
+
+);

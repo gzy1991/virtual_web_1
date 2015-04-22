@@ -1,0 +1,78 @@
+﻿@charset "utf-8";
+body,p,th,td,select,textarea{font:normal normal 12px "宋体";}
+body{text-align: -moz-center !important; text-align:left;height:100%; position:relative; background-color:#fff;} 
+#wrap{margin:0px auto;overflow-x:hidden;}
+h1 {font-size:12px;}
+h2,h3,h4,h5,h6{font-size:13px;}
+ul li,ol li{list-style-type:none; overflow:hidden;vertical-align:bottom;}
+body,dl dt,dl dd,tr td,p,font,ul,dl,ol,form,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+table{text-align:left; border-collapse:collapse;}
+img{border:0;}
+address,em{font-style:normal;}
+a{outline:none;blr:expression(this.onFocus=this.blur());} 
+a:link,a:visited{text-decoration:none; cursor: hand;}
+a:hover,a:active{text-decoration:underline; cursor: hand;}
+.clear {height:0;overflow:hidden;clear:both;font-size:0px;line-height:0px;}
+.clear8 {height:8px;overflow:hidden;clear:both;font-size:0px;line-height:0px;}
+.left{float:left;}
+.right{float:right;}
+
+.margin10{margin:10px;}
+.marginleft10{margin-left:10px;}
+.margintop10{margin-top:10px;}
+.marginright10{margin-right:10px;}
+.marginbottom10{margin-bottom:10px;}
+
+.padding10{padding:10px;}
+.paddingleft10{padding-left:10px;}
+.paddingtop10{padding-top:10px;}
+.paddingright10{padding-right:10px;}
+.paddingbottom10{padding-bottom:10px;}
+
+.aligncenter{ text-align: -moz-center !important; /*For Firefox*/ text-align: center; /*For IE*/}
+.alignleft{text-align:left;}
+.alignright{text-align:right;}
+
+.textlist li{margin-top:5px; white-space:nowrap; }
+.textlist_title{white-space:nowrap; overflow:hidden; width:auto; float:left;text-overflow:ellipsis;-o-text-overflow: ellipsis; text-align:left;}
+.textlist_date{white-space:nowrap; overflow:hidden; width:70px; float:right; text-align:center;}
+.textcontent{text-align:left;}
+
+.page{text-align:right;}
+
+.borderRed{border:1px solid red;}
+.inline{display:inline;}
+
+.width940{width:940px;}
+.width640{width:640px;}
+
+.font14{font-size:14px;}
+.font16{font-size:16px;}
+.fontbold{font-weight:bold;}
+
+.lineheight20{line-height:20px;}
+
+.imageborder{ padding:3px; border:1px solid #cccccc;}
+.margin0auto{margin:0px auto;}
+
+.paddingright0{padding-right:0px;}
+.nowrap{white-space:nowrap;}
+.hand{cursor:pointer;}
+.linethrough{text-decoration:line-through;}
+.img{overflow:hidden;}
+.marquee{overflow:hidden;}
+.imgcenters .img{ text-align:center;}
+.bgcenter{/*text-align:center;*/ width:100%;}
+.bgcenter > *{margin:0px auto;}
+.width1000{width:1000px;}
+.clearfix:after {
+visibility: hidden;
+display: block;
+font-size: 0;
+content: " ";
+clear: both;
+height: 0;
+}
+.clearfix{*zoom:1;}
+.heightsmall{font-size:0px;line-height:0px;}
+#hover{text-align:center; padding-top:10px; padding-bottom:10px; clear:both;}

@@ -1,0 +1,39 @@
+.nivoSlider {
+	position: relative;
+}
+.nivoSlider img {
+	left: 0px; top: 0px; position: absolute;
+}
+.nivoSlider a.nivo-imageLink {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: absolute; z-index: 60;
+}
+.nivo-slice {
+	height: 100%; display: block; position: absolute; z-index: 50;
+}
+.nivo-caption {
+	background: rgb(0, 0, 0); left: 0px; width: 100%; bottom: 0px; color: rgb(255, 255, 255); position: absolute; z-index: 89; opacity: 0.8;
+}
+.nivo-caption p {
+	margin: 0px; padding: 5px;
+}
+.nivo-caption a {
+	display: inline !important;
+}
+.nivo-html-caption {
+	display: none;
+}
+.nivo-directionNav a {
+	top: 45%; position: absolute; z-index: 99; cursor: pointer;
+}
+.nivo-prevNav {
+	left: 0px;
+}
+.nivo-nextNav {
+	right: 0px;
+}
+.nivo-controlNav a {
+	position: relative; z-index: 99; cursor: pointer;
+}
+.nivo-controlNav a.active {
+	font-weight: bold;
+}

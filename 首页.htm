@@ -11,6 +11,7 @@
     <title>大连理工大学软件工程虚拟仿真实验教学中心</title>
     
 <link rel="stylesheet" type="text/css" href="%E9%A6%96%E9%A1%B5_files/index.css">
+<link rel="stylesheet" type="text/css" href="css/lunbotu.css">
 
     <style>
     .field-validation-error{color:Red;}
@@ -114,13 +115,16 @@
 </div>
 
 
-<div id="banner"> 
+<!-- <div id="banner"> 
     <div id="banner_index" class="width margin0auto">
       <iframe scrolling="no" src="%E9%A6%96%E9%A1%B5_files/RandomArticle.htm" frameborder="0" height="250" width="1002">
         </iframe>
     </div>
-</div>
+</div> -->
 
+		<div id="banner"> 
+		 <div id="lunboStage"></div>
+		</div>
 
  
 
@@ -239,6 +243,16 @@ overflow: hidden;
 width: 343px;
 border:1px solid #ddd;
 }
+ .imgx{
+ 	background-image: url(首页_files/erweima.jpg);
+ 	height: 200px;
+ 	background-position:top;
+ 	background-repeat: no-repeat;s
+ }
+ .imgx p{
+ 	margin-top: 160px;
+ 	margin-left:20px;
+ }
 </style>
 <div class="case list_content clearfix">
 	<div class="title">
@@ -253,52 +267,7 @@ border:1px solid #ddd;
 	
 		<li>
 			<div class="imgx">
-				<div class="img_contentx">
-				    
-				<a style="position: relative; display: block; overflow: hidden;" class="video" href="http://saelab.dlut.edu.cn/UploadFiles/201406031043192037.flv"><img style="width: 166px; height: 166px; margin-top: 38px;" class="videopreview" src="%E9%A6%96%E9%A1%B5_files/201406031003053108_166x166.png"><img style="position: absolute; top: 79.5px; left: 130px;" class="playbtn" src="%E9%A6%96%E9%A1%B5_files/play_large.png"></a>
-
-<script type="text/javascript" src="%E9%A6%96%E9%A1%B5_files/flowplayer-3.js"></script>
-
-<script type="text/javascript">
-    flowplayer("a.video", "/Content/images/flowplayer-3.2.7.swf", { clip: {
-        autoPlay: true
-    }
-      ,
-        plugins: {
-            controls: {
-                url: '/Content/images/flowplayer.controls-3.2.5.swf'
-            }
-        }
-    });
-    $(function() {
-        var playbtn = $("a.video .playbtn");
-        if (playbtn.size() > 0) {
-            playbtn.each(function() {
-                $this = $(this);
-                var $border = $(this).parents("a.video:first");
-                $border.css({ "position": "relative", "display": "block", "overflow": "hidden" });
-                $this.css({ "position": "absolute" });
-                var w = $border.width();
-                var h = $border.height();
-                var thisw = 83;
-                var thish = 83;
-                $this.css({ top: (h - thish) / 2, left: (w - thisw) / 2 });
-            });
-        }
-    });
-</script>
-
-
-
-<script type="text/javascript">
-    $(function() {
-        $(".videopreview").imageautoresize();
-        $(".videopreview").valign();
-    });
-</script>
-
-
-				</div>
+				<p>关注<span style="font-weight:bold;font-size:10pt;font-family:&#39;仿宋_GB2312&#39;;color:#000000;">“理工软院之计算机组成原理实验”</span>微信公众账号</p>
 			</div>
 			
 		</li>
@@ -638,7 +607,11 @@ border:1px solid #ddd;
     <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5_files/common_002.js"></script>
     <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5_files/common.js"></script>
     <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5_files/PreLoadImageJS.htm"></script>
-    
+    <script language="javascript" type="text/javascript" src="js/lunbotu.js"></script>
+	<script type="text/javascript">
+	        document.getElementById("lunboStage").lunbotu(1020,251,3,2000);
+	    </script>
+
     
     
     

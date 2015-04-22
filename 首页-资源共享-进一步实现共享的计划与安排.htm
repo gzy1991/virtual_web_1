@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <link rel="shortcut icon" href="http://saelab.dlut.edu.cn/favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="大连理工大学车辆工程虚拟仿真实验教学中心">
+    <meta name="keywords" content="大连理工大学车辆工程虚拟仿真实验教学中心">
+    <link rel="stylesheet" type="text/css" href="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/base.css">
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/jquery-1.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/common-img.css">
+    <title>进一步实现共享的计划与安排 - 大连理工大学软件工程虚拟仿真实验教学中心</title>
+    
+<link rel="stylesheet" type="text/css" href="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/article2.htm">
+<link rel="stylesheet" type="text/css" href="css/lu nbotu.css">
+
+    <style>
+    .field-validation-error{color:Red;}
+    </style>
+
+    
+</head>
+<body>
+    
+    <div id="wrap">
+        
+<div id="header">
+    
+<div id="header_center" class="width margin0auto clearfix">
+    
+<div id="logo">
+    <a href="http://saelab.dlut.edu.cn/Index.aspx">
+        <img src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/201405271621157718_660x101.png"></a></div>
+
+<div id="header_set">
+    <a href="javascript:void(0)" id="header_set_sethome">设为首页</a> <a href="javascript:void(0)" id="header_set_addfavorite">加入收藏</a>
+</div>
+<div id="search">
+
+    <script>
+        function onSearch() {
+            setTimeout(function() {
+            document.location.href = '/Search.aspx?lan=zh-cn&key=' + $("#searchKey").val();
+            }, 0);
+            return false;
+        }
+        $("#search_text input").keydown(function(e) {
+            if (e.keyCode == 13) {
+                onSearch();
+            }
+        });
+    </script>
+    <div id="search_text">
+        <input name="" id="searchKey" class="text" type="text">
+    </div>
+    <div id="search_button">
+        <a href="#" onclick="return onSearch();"></a></div>
+</div>
+</div>
+
+<div id="nav">
+    <div id="nav_inner">
+        <ul id="nav_ul" class="width margin0auto clearfix">
+            <li id="nav1"><a href="http://saelab.dlut.edu.cn/Index.aspx"><span>
+                网站首页</span></a></li>
+            
+            <li id="nav2">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1712.aspx">
+                        
+                        <span>
+                            中心概况</span></a></li>
+            
+            <li id="nav3">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1677.aspx">
+                        
+                        <span>
+                            虚拟仿真实验教学资源</span></a></li>
+            
+            <li id="nav4">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1680.aspx">
+                        
+                        <span>
+                            资源共享</span></a></li>
+            
+            <li id="nav5">
+                
+                    <a href="http://saelab.dlut.edu.cn/List/93.aspx">
+                        
+                        <span>
+                            图片展示</span></a></li>
+            
+            <li id="nav6">
+                
+                    <a href="http://saelab.dlut.edu.cn/Detail/1685.aspx">
+                        
+                        <span>
+                            条件保障</span></a></li>
+            
+            <li id="nav7">
+                <a href="http://saelab.dlut.edu.cn:82/manage/login/login.aspx" target="_blank">
+                    
+                        <span>
+                            设备预约</span></a></li>
+            
+            <li id="nav8">
+                <a href="http://www.dlut.edu.cn/" target="_blank">
+                    
+                        <span>
+                            大工主页</span></a></li>
+            
+        </ul>
+    </div>
+</div>
+
+
+<!-- <div id="banner"> 
+    <div id="banner_index" class="width margin0auto">
+      <iframe scrolling="no" src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/RandomArticle.htm" frameborder="0" height="250" width="1002">
+        </iframe>
+    </div>
+</div> -->
+<div id="banner"> 
+ <div id="lunboStage"></div>
+</div>
+
+ 
+
+</div>
+         <div class="content">
+            <div id="content_content" class="width margin0auto clearfix">
+                
+
+<div id="list"><div style="margin-left: 250px;" id="list_split"></div>
+
+<div class="article2 list_content clearfix">
+	<div class="title">
+	    <div class="title_inner">
+		    <div class="title_content">
+			    <div class="content_title"><span><a href="javascript:void(0);">资源共享</a></span></div>
+			    <div class="content_more"><a href="javascript:void(0);">更多</a></div>
+		    </div>
+		</div>
+	</div>
+    <div class="content">
+	<ul class="contentbg">
+	
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1680.aspx">目前教学资源共享的范围和效果</a></div>
+		</li>
+		
+		<li>
+        	<div style="width: 200px;" class="font"><a href="http://saelab.dlut.edu.cn/Detail/1681.aspx">进一步实现共享的计划与安排</a></div>
+		</li>
+		
+	</ul>
+    </div>
+</div>
+
+
+</div>
+<div style="width: 749px;" id="group">
+    <div id="article2">
+        <div class="title">
+            <div class="title_inner">
+                <div class="title_content">
+                    <div class="content_title"><span>进一步实现共享的计划与安排</span></div>
+                    
+<div class="trace">
+    您当前所在位置： <a href="http://saelab.dlut.edu.cn/Index.aspx">首页</a>
+    
+    &gt;&gt;
+    <a href="http://saelab.dlut.edu.cn/List/397.aspx">资源共享</a>
+    
+    &gt;&gt;
+    <a href="http://saelab.dlut.edu.cn/Detail/1681.aspx">进一步实现共享的计划与安排</a>
+    
+</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="content">
+         <p style="text-indent:24pt;" class="p0">
+    <span style="font-family:&#39;仿宋_GB2312&#39;;color:#000000;font-size:12pt;">1.中心将增加课程资源的共享，力图将课程视频、仿真实例在网络学堂上共享，增加学生学习的自由度。    </span><span style="font-family:&#39;仿宋_GB2312&#39;;color:#000000;font-size:12pt;"></span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:&#39;仿宋_GB2312&#39;;color:#000000;font-size:12pt;">2.中心将扩大资源共享的范围，从面向国内院系扩展到面向国外相关院校，提升中心的影响力和示范作用。</span><span style="font-family:&#39;仿宋_GB2312&#39;;color:#000000;font-size:12pt;"></span>
+</p>
+<p style="text-indent:24pt;" class="p0">
+    <span style="font-family:&#39;仿宋_GB2312&#39;;color:#000000;font-size:12pt;">3.中心将扩大国际交流的范围和规模，培养具有国际化视野的高水平IT精英人才，进一步建设跨学科的学生创新创业训练平台，成为面向全国高校、科研院所、企业开放的公共服务平台。</span><span style="font-family:&#39;仿宋_GB2312&#39;;color:#000000;font-size:12pt;"></span>
+</p>
+<p class="p0">
+	<span style="font-family:'宋体';font-size:10.5pt;"></span>
+</p>
+<p class="p0">
+	<span style="font-family:'宋体';font-size:10.5pt;"></span>
+</p>
+<p class="p0">
+	<span style="font-family:'宋体';font-size:10.5pt;"></span>
+</p>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        
+<div id="footer">
+    <div class="content width margin0auto">
+        <table cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle">
+        
+<span id="support">©2014 大连理工大学版权所有<a href="http://www.shareyue.com/"> </a></span>
+        </td></tr></tbody></table>
+    </div>
+</div>
+    </div>
+    <script type="text/javascript">
+        window.lan = "zh-cn";
+    </script>
+    <!--[if lt IE 10]>
+    <script type="text/javascript" src="/Template/js/PIE.js"></script>
+    <![endif]-->
+        <!--[if lt IE 7]>
+    <script language="javascript" type="text/javascript" src="/Template/js/DD_belatedPNG_0.0.8a-min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <script  language="javascript" type="text/javascript" src="/Template/js/IE8.js"></script>
+    <![endif]-->
+  
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/jquery_002.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/jquery_003.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/jcarousellite_1.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/jquery_004.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/common.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/common_002.js"></script>
+    <script language="javascript" type="text/javascript" src="%E9%A6%96%E9%A1%B5-%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB-%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0%E5%85%B1%E4%BA%AB%E7%9A%84%E8%AE%A1%E5%88%92%E4%B8%8E%E5%AE%89%E6%8E%92_files/PreLoadImageJS.htm"></script>
+        <script language="javascript" type="text/javascript" src="js/lunbotu.js"></script>
+    <script type="text/javascript">
+        document.getElementById("lunboStage").lunbotu(1020,251,3,2000);
+    </script>
+    
+    
+    
+</body></html>

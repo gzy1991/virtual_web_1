@@ -1,0 +1,261 @@
+body {
+	font: 12px/normal "宋体"; font-size-adjust: none; font-stretch: normal;
+}
+p {
+	font: 12px/normal "宋体"; font-size-adjust: none; font-stretch: normal;
+}
+th {
+	font: 12px/normal "宋体"; font-size-adjust: none; font-stretch: normal;
+}
+td {
+	font: 12px/normal "宋体"; font-size-adjust: none; font-stretch: normal;
+}
+select {
+	font: 12px/normal "宋体"; font-size-adjust: none; font-stretch: normal;
+}
+textarea {
+	font: 12px/normal "宋体"; font-size-adjust: none; font-stretch: normal;
+}
+body {
+	height: 100%; text-align: left; position: relative; background-color: rgb(255, 255, 255);
+}
+#wrap {
+	margin: 0px auto; -ms-overflow-x: hidden;
+}
+h1 {
+	font-size: 12px;
+}
+h2 {
+	font-size: 13px;
+}
+h3 {
+	font-size: 13px;
+}
+h4 {
+	font-size: 13px;
+}
+h5 {
+	font-size: 13px;
+}
+h6 {
+	font-size: 13px;
+}
+ul li {
+	overflow: hidden; vertical-align: bottom; list-style-type: none;
+}
+ol li {
+	overflow: hidden; vertical-align: bottom; list-style-type: none;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+dl dt {
+	margin: 0px; padding: 0px;
+}
+dl dd {
+	margin: 0px; padding: 0px;
+}
+tr td {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+font {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+table {
+	text-align: left; border-collapse: collapse;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+address {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+a {
+	
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: underline;
+}
+.clear {
+	height: 0px; line-height: 0px; overflow: hidden; clear: both; font-size: 0px;
+}
+.clear8 {
+	height: 8px; line-height: 0px; overflow: hidden; clear: both; font-size: 0px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.margin10 {
+	margin: 10px;
+}
+.marginleft10 {
+	margin-left: 10px;
+}
+.margintop10 {
+	margin-top: 10px;
+}
+.marginright10 {
+	margin-right: 10px;
+}
+.marginbottom10 {
+	margin-bottom: 10px;
+}
+.padding10 {
+	padding: 10px;
+}
+.paddingleft10 {
+	padding-left: 10px;
+}
+.paddingtop10 {
+	padding-top: 10px;
+}
+.paddingright10 {
+	padding-right: 10px;
+}
+.paddingbottom10 {
+	padding-bottom: 10px;
+}
+.aligncenter {
+	text-align: center;
+}
+.alignleft {
+	text-align: left;
+}
+.alignright {
+	text-align: right;
+}
+.textlist li {
+	margin-top: 5px; white-space: nowrap;
+}
+.textlist_title {
+	width: auto; text-align: left; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis; -o-text-overflow: ellipsis;
+}
+.textlist_date {
+	width: 70px; text-align: center; overflow: hidden; float: right; white-space: nowrap;
+}
+.textcontent {
+	text-align: left;
+}
+.page {
+	text-align: right;
+}
+.borderRed {
+	border: 1px solid red; border-image: none;
+}
+.inline {
+	display: inline;
+}
+.width940 {
+	width: 940px;
+}
+.width640 {
+	width: 640px;
+}
+.font14 {
+	font-size: 14px;
+}
+.font16 {
+	font-size: 16px;
+}
+.fontbold {
+	font-weight: bold;
+}
+.lineheight20 {
+	line-height: 20px;
+}
+.imageborder {
+	padding: 3px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.margin0auto {
+	margin: 0px auto;
+}
+.paddingright0 {
+	padding-right: 0px;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.hand {
+	cursor: pointer;
+}
+.linethrough {
+	text-decoration: line-through;
+}
+.img {
+	overflow: hidden;
+}
+.marquee {
+	overflow: hidden;
+}
+.imgcenters .img {
+	text-align: center;
+}
+.bgcenter {
+	width: 100%;
+}
+.bgcenter > * {
+	margin: 0px auto;
+}
+.width1000 {
+	width: 1000px;
+}
+.clearfix::after {
+	height: 0px; clear: both; font-size: 0px; display: block; visibility: hidden; content: " ";
+}
+.clearfix {
+	
+}
+.heightsmall {
+	line-height: 0px; font-size: 0px;
+}
+#hover {
+	text-align: center; padding-top: 10px; padding-bottom: 10px; clear: both;
+}
