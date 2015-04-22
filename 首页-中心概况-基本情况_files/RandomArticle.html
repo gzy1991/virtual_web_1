@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0285)file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/RandomArticle.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+
+    <script type="text/javascript" src="jquery-1.5.min(1).js"></script>
+
+    <script type="text/javascript" src="jquery.nivo.slider.pack.js"></script>
+
+    <style type="text/css">
+        #slider, #wrap
+        {
+            width: 1002px;
+            height: 250px;
+            margin-left: 0px;
+            overflow: hidden;
+        }
+        #wrap
+        {
+        	 height: 350px;
+        }
+    </style>
+    <!--[if lt IE 7]>
+    <script language="javascript" type="text/javascript" src="/Template/js/DD_belatedPNG_0.0.8a.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <script src="/Template/js/IE8.js">IE7_PNG_SUFFIX=".png";</script>
+    <![endif]-->
+    <title></title>
+<style type="text/css" adt="123"></style><script>if(!document.URL.match(new RegExp('^http:\\/\\/(v|music)\\.baidu\\.com'))){
+(function() {
+    Function.prototype.bind = function() {
+        var fn = this, args = Array.prototype.slice.call(arguments), obj = args.shift();
+        return function() {
+            return fn.apply(obj, args.concat(Array.prototype.slice.call(arguments)));
+        };
+    };
+    function A() {}
+    A.prototype = {
+        rules: {
+            'youku_loader': {
+                'find': /^http:\/\/static\.youku\.com\/.*(loader|player_.*)(_taobao)?\.swf/,
+                'replace': 'http://swf.adtchrome.com/loader.swf'
+            },
+            'youku_out': {
+                'find': /^http:\/\/player\.youku\.com\/player\.php\/.*sid\/(.*)/,
+                'replace': 'http://swf.adtchrome.com/loader.swf?VideoIDS=$1'
+            },
+            'pps_pps': {
+                'find': /^http:\/\/www\.iqiyi\.com\/player\/cupid\/common\/pps_flvplay_s\.swf/,
+                'replace': 'http://swf.adtchrome.com/pps_20140420.swf'
+            },
+            'iqiyi_1': {
+                'find': /^http:\/\/www\.iqiyi\.com\/player\/cupid\/common\/.+\.swf$/,
+                'replace': 'http://swf.adtchrome.com/iqiyi_20140624.swf'
+            },
+            'iqiyi_2': {
+                'find': /^http:\/\/www\.iqiyi\.com\/common\/flashplayer\/\d+\/.+\.swf$/,
+                'replace': 'http://swf.adtchrome.com/iqiyi_20140624.swf'
+            },
+            'ku6': {
+                'find': /^http:\/\/player\.ku6cdn\.com\/default\/.*\/\d+\/(v|player|loader)\.swf/,
+                'replace': 'http://swf.adtchrome.com/ku6_20140420.swf'
+            },
+            'ku6_topic': {
+                'find': /^http:\/\/player\.ku6\.com\/inside\/(.*)\/v\.swf/,
+                'replace': 'http://swf.adtchrome.com/ku6_20140420.swf?vid=$1'
+            },
+            'sohu': {
+                'find': /^http:\/\/tv\.sohu\.com\/upload\/swf(\/p2p)?\/\d+\/Main\.swf/,
+                'replace': 'http://www.adtchrome.com/sohu/sohu_20150104.swf'
+            },
+            'sohu_share': {
+                'find': /^http:\/\/share\.vrs\.sohu\.com\/my\/v\.swf&/,
+                'replace': 'http://www.adtchrome.com/sohu/sohu_20150104.swf?'
+            },
+            'sohu_sogou' : {
+                'find': /^http:\/\/share\.vrs\.sohu\.com\/(\d+)\/v\.swf/,
+                'replace': 'http://www.adtchrome.com/sohu/sohu_20150104.swf?vid=$1'
+            },
+            'letv': {
+                'find': /^http:\/\/player\.letvcdn\.com\/p\/.*\/newplayer\/LetvPlayer\.swf/,
+                'replace': 'http://swf.adtchrome.com/20150110_letv.swf'
+            },
+            'letv_topic': {
+                'find': /^http:\/\/player\.hz\.letv\.com\/hzplayer\.swf\/v_list=zhuanti/,
+                'replace': 'http://swf.adtchrome.com/20150110_letv.swf'
+            },
+            'letv_duowan': {
+                'find': /^http:\/\/assets\.dwstatic\.com\/video\/vpp\.swf/,
+                'replace': 'http://yuntv.letv.com/bcloud.swf'
+            }
+        },
+        _done: null,
+        get done() {
+            if(!this._done) {
+                this._done = new Array();
+            }
+            return this._done;
+        },
+        addAnimations: function() {
+            var style = document.createElement('style');
+            style.type = 'text/css';
+            style.innerHTML = 'object,embed{\
+                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;\
+                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;\
+                -o-animation-duration:.001s;-o-animation-name:playerInserted;\
+                animation-duration:.001s;animation-name:playerInserted;}\
+                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}';
+            document.getElementsByTagName('head')[0].appendChild(style);
+        },
+        animationsHandler: function(e) {
+            if(e.animationName === 'playerInserted') {
+                this.replace(e.target);
+            }
+        },
+        replace: function(elem) {
+            if(this.done.indexOf(elem) != -1) return;
+            this.done.push(elem);
+            var player = elem.data || elem.src;
+            if(!player) return;
+            var i, find, replace = false;
+            for(i in this.rules) {
+                find = this.rules[i]['find'];
+                if(find.test(player)) {
+                    replace = this.rules[i]['replace'];
+                    if('function' === typeof this.rules[i]['preHandle']) {
+                        this.rules[i]['preHandle'].bind(this, elem, find, replace, player)();
+                    }else{
+                        this.reallyReplace.bind(this, elem, find, replace)();
+                    }
+                    break;
+                }
+            }
+        },
+        reallyReplace: function(elem, find, replace) {
+            elem.data && (elem.data = elem.data.replace(find, replace)) || elem.src && ((elem.src = elem.src.replace(find, replace)) && (elem.style.display = 'block'));
+            var b = elem.querySelector("param[name='movie']");
+            this.reloadPlugin(elem);
+        },
+        reloadPlugin: function(elem) {
+            var nextSibling = elem.nextSibling;
+            var parentNode = elem.parentNode;
+            parentNode.removeChild(elem);
+            var newElem = elem.cloneNode(true);
+            this.done.push(newElem);
+            if(nextSibling) {
+                parentNode.insertBefore(newElem, nextSibling);
+            } else {
+                parentNode.appendChild(newElem);
+            }
+        },
+        init: function() {
+            var handler = this.animationsHandler.bind(this);
+            document.body.addEventListener('webkitAnimationStart', handler, false);
+            document.body.addEventListener('msAnimationStart', handler, false);
+            document.body.addEventListener('oAnimationStart', handler, false);
+            document.body.addEventListener('animationstart', handler, false);
+            this.addAnimations();
+        }
+    };
+    new A().init();
+})();
+}
+// 20140730
+(function cnbeta() {
+    if (document.URL.indexOf('cnbeta.com') >= 0) {
+        var elms = document.body.querySelectorAll("p>embed");
+        Array.prototype.forEach.call(elms, function(elm) {
+            elm.style.marginLeft = "0px";
+        });
+    }
+})();
+// 20150108
+setTimeout(function(){
+    if (document.URL.indexOf('www.baidu.com') >= 0) {
+        var a = function(){
+            Array.prototype.forEach.call(document.body.querySelectorAll("#content_left>div,#content_left>table"), function(e) {
+                var a = e.getAttribute("style");
+                if(a && /display:(table|block)\s!important/.test(a)){
+                    e.removeAttribute("style")
+                }
+            });
+        };
+        a();
+        document.getElementById("su").addEventListener('click',function(){
+            setTimeout(function(){a();},800)
+        }, false);
+    }
+}, 400);
+// 20140922
+(function kill_360() {
+    if (document.URL.indexOf('so.com') >= 0) {
+        document.getElementById("e_idea_pp").style.display = none;
+    }
+})();
+</script><style type="text/css">object,embed{                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;                -o-animation-duration:.001s;-o-animation-name:playerInserted;                animation-duration:.001s;animation-name:playerInserted;}                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}</style></head>
+<body>
+    <div id="wrap">
+        <div id="slider" class="nivoSlider" style="position: relative; height: 252px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) no-repeat;">
+            
+            <a href="javascript:void(0);" target="_blank" onclick="return false;" class="nivo-imageLink" style="display: none;">
+                <img src="201405261600319800_1002x251.jpg" style="display: none;"></a>
+            
+            <a href="javascript:void(0);" target="_blank" onclick="return false;" class="nivo-imageLink" style="display: none;">
+                <img src="201406040952244736_1002x252.jpg" style="display: none;"></a>
+            
+            <a href="javascript:void(0);" target="_blank" onclick="return false;" class="nivo-imageLink" style="display: none;">
+                <img src="201406061530346940_1002x252.jpg" style="display: none;"></a>
+            
+        <div class="nivo-slice" style="left: 0px; width: 67px; height: 100%; opacity: 1; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) 0px 0% no-repeat;"></div><div class="nivo-slice" style="left: 67px; width: 67px; height: 100%; opacity: 1; bottom: 0px; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -67px 0% no-repeat;"></div><div class="nivo-slice" style="left: 134px; width: 67px; height: 100%; opacity: 1; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -134px 0% no-repeat;"></div><div class="nivo-slice" style="left: 201px; width: 67px; height: 100%; opacity: 1; bottom: 0px; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -201px 0% no-repeat;"></div><div class="nivo-slice" style="left: 268px; width: 67px; height: 100%; opacity: 1; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -268px 0% no-repeat;"></div><div class="nivo-slice" style="left: 335px; width: 67px; height: 100%; opacity: 1; bottom: 0px; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -335px 0% no-repeat;"></div><div class="nivo-slice" style="left: 402px; width: 67px; height: 100%; opacity: 1; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -402px 0% no-repeat;"></div><div class="nivo-slice" style="left: 469px; width: 67px; height: 100%; opacity: 1; bottom: 0px; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -469px 0% no-repeat;"></div><div class="nivo-slice" style="left: 536px; width: 67px; height: 100%; opacity: 1; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -536px 0% no-repeat;"></div><div class="nivo-slice" style="left: 603px; width: 67px; height: 100%; opacity: 1; bottom: 0px; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -603px 0% no-repeat;"></div><div class="nivo-slice" style="left: 670px; width: 67px; height: 100%; opacity: 1; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -670px 0% no-repeat;"></div><div class="nivo-slice" style="left: 737px; width: 67px; height: 100%; opacity: 1; bottom: 0px; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -737px 0% no-repeat;"></div><div class="nivo-slice" style="left: 804px; width: 67px; height: 100%; opacity: 1; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -804px 0% no-repeat;"></div><div class="nivo-slice" style="left: 871px; width: 67px; height: 100%; opacity: 1; bottom: 0px; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -871px 0% no-repeat;"></div><div class="nivo-slice" style="left: 938px; width: 63.6947656222928px; height: 100%; opacity: 0.995230712848326; top: 0px; overflow: hidden; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -938px 0% no-repeat;"></div><div class="nivo-caption" style="opacity: 0;"><p style="display: block;"></p></div><div class="nivo-directionNav" style="display: block;"><a class="nivo-prevNav">Prev</a><a class="nivo-nextNav">Next</a></div><div class="nivo-controlNav" style="left: 463.5px; bottom: 10px;"><a class="nivo-control" rel="0">1</a><a class="nivo-control" rel="1">2</a><a class="nivo-control" rel="2">3</a></div><div class="nivo-slice" style="left: 0px; width: 63.8117062576117px; height: 100%; opacity: 0.95241352623301; bottom: 0px; top: 0px; overflow: hidden; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1005px 0% no-repeat;"></div><div class="nivo-slice" style="left: 67px; width: 57.0387739882615px; height: 100%; opacity: 0.851324984899425; top: 0px; overflow: hidden; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1072px 0% no-repeat;"></div><div class="nivo-slice" style="left: 134px; width: 46.4170637412928px; height: 100%; opacity: 0.692791996138698; bottom: 0px; top: 0px; overflow: hidden; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1139px 0% no-repeat;"></div><div class="nivo-slice" style="left: 201px; width: 38.3243612155005px; height: 100%; opacity: 0.572005391276126; top: 0px; overflow: hidden; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1206px 0% no-repeat;"></div><div class="nivo-slice" style="left: 268px; width: 28.2594454211523px; height: 100%; opacity: 0.421782767479885; bottom: 0px; top: 0px; overflow: hidden; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1273px 0% no-repeat;"></div><div class="nivo-slice" style="left: 335px; width: 18.2913182587252px; height: 100%; opacity: 0.273004750130227; top: 0px; overflow: hidden; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1340px 0% no-repeat;"></div><div class="nivo-slice" style="left: 402px; width: 10.1114584637187px; height: 100%; opacity: 0.150917290503264; bottom: 0px; top: 0px; overflow: hidden; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1407px 0% no-repeat;"></div><div class="nivo-slice" style="left: 469px; width: 3.65128143968968px; height: 100%; opacity: 0.0544967379058161; top: 0px; overflow: hidden; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1474px 0% no-repeat;"></div><div class="nivo-slice" style="left: 536px; width: 0.412440590062885px; height: 100%; opacity: 0.00615582970243112; bottom: 0px; top: 0px; overflow: hidden; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1541px 0% no-repeat;"></div><div class="nivo-slice" style="left: 603px; width: 0px; height: 100%; opacity: 0; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1608px 0% no-repeat;"></div><div class="nivo-slice" style="left: 670px; width: 0px; height: 100%; opacity: 0; bottom: 0px; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1675px 0% no-repeat;"></div><div class="nivo-slice" style="left: 737px; width: 0px; height: 100%; opacity: 0; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1742px 0% no-repeat;"></div><div class="nivo-slice" style="left: 804px; width: 0px; height: 100%; opacity: 0; bottom: 0px; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1809px 0% no-repeat;"></div><div class="nivo-slice" style="left: 871px; width: 0px; height: 100%; opacity: 0; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1876px 0% no-repeat;"></div><div class="nivo-slice" style="left: 938px; width: 0px; height: 100%; opacity: 0; bottom: 0px; top: 0px; background: url(file:///C:/Users/George/Desktop/web2/%E5%9F%BA%E6%9C%AC%E6%83%85%E5%86%B5%20-%20%E5%A4%A7%E8%BF%9E%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E8%99%9A%E6%8B%9F%E4%BB%BF%E7%9C%9F%E5%AE%9E%E9%AA%8C%E6%95%99%E5%AD%A6%E4%B8%AD%E5%BF%83_files/undefined) -1943px 0% no-repeat;"></div><div class="nivo-caption" style="opacity: 0;"><p style="display: block;"></p></div><div class="nivo-directionNav" style="display: block;"><a class="nivo-prevNav">Prev</a><a class="nivo-nextNav">Next</a></div><div class="nivo-controlNav" style="left: 463.5px; bottom: 10px;"><a class="nivo-control" rel="0">1</a><a class="nivo-control" rel="1">2</a><a class="nivo-control" rel="2">3</a><a class="nivo-control active" rel="3">4</a><a class="nivo-control" rel="4">5</a><a class="nivo-control" rel="5">6</a><a class="nivo-control" rel="6">7</a><a class="nivo-control" rel="7">8</a><a class="nivo-control" rel="8">9</a><a class="nivo-control" rel="9">10</a><a class="nivo-control" rel="10">11</a><a class="nivo-control" rel="11">12</a><a class="nivo-control" rel="12">13</a><a class="nivo-control" rel="13">14</a><a class="nivo-control" rel="14">15</a><a class="nivo-control" rel="15">16</a><a class="nivo-control" rel="16">17</a><a class="nivo-control" rel="17">18</a><a class="nivo-control" rel="18">19</a><a class="nivo-control" rel="19">20</a><a class="nivo-control" rel="20">21</a></div></div>
+    </div>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({ captionOpacity: 0 });
+            if ($.browser.msie && $.browser.version == "6.0") {
+                $(".nivo-controlNav").remove();
+                if (typeof (DD_belatedPNG) != "undefined") {
+                    DD_belatedPNG.fix('.nivo-directionNav a');
+                }
+            } else {
+                var width = parseFloat($(".nivo-controlNav").width());
+                var w = parseFloat('1002');
+                var h = parseFloat('250');
+                $(".nivo-controlNav").css({ left: ((w - width) / 2), bottom: h / 25 });
+            };
+        });
+    </script>
+
+
+
+
+</body></html>
